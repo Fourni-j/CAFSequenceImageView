@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class SequenceImageView: UIImageView {
+public class CAFSequenceImageView: UIImageView {
     
     public var images: [UIImage] {
         didSet {
@@ -24,7 +24,7 @@ public class SequenceImageView: UIImageView {
     private var sequenceTimer: Timer?
     private var currentImageIndex = 0
     
-    public init(images: [UIImage], interval: TimeInterval = 1) {
+    public init(images: [UIImage] = [], interval: TimeInterval = 1) {
         self.images = images
         self.interval = interval
         super.init(frame: .zero)

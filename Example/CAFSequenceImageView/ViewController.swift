@@ -13,13 +13,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let imageView = SequenceImageView(images: [#imageLiteral(resourceName: "about.pdf"), #imageLiteral(resourceName: "pro.pdf"), #imageLiteral(resourceName: "rate.pdf"), #imageLiteral(resourceName: "thanks.pdf")], interval: 0.25)
-        
+        let imageView = CAFSequenceImageView(images: [#imageLiteral(resourceName: "about.pdf"), #imageLiteral(resourceName: "pro.pdf"), #imageLiteral(resourceName: "rate.pdf"), #imageLiteral(resourceName: "thanks.pdf")], interval: 0.25)
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFit
         view.addSubview(imageView)
-        
         NSLayoutConstraint.activate([
             imageView.leftAnchor.constraint(equalTo: view.leftAnchor),
             imageView.topAnchor.constraint(equalTo: view.topAnchor),
