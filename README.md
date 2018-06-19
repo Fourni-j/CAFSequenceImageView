@@ -1,6 +1,6 @@
 # CAFSequenceImageView
 
-[![CI Status](https://img.shields.io/travis/fourni-j/CAFSequenceImageView.svg?style=flat)](https://travis-ci.org/fourni-j/CAFSequenceImageView)
+[![CI Status](https://img.shields.io/travis/Fourni-j/CAFSequenceImageView.svg?style=flat)](https://travis-ci.org/Fourni-j/CAFSequenceImageView)
 [![Version](https://img.shields.io/cocoapods/v/CAFSequenceImageView.svg?style=flat)](https://cocoapods.org/pods/CAFSequenceImageView)
 [![License](https://img.shields.io/cocoapods/l/CAFSequenceImageView.svg?style=flat)](https://cocoapods.org/pods/CAFSequenceImageView)
 [![Platform](https://img.shields.io/cocoapods/p/CAFSequenceImageView.svg?style=flat)](https://cocoapods.org/pods/CAFSequenceImageView)
@@ -22,7 +22,7 @@ pod 'CAFSequenceImageView'
 
 ## Author
 
-fourni-j, charles@urbanhello.com
+fourni-j, charladfr@me.com
 
 ## License
 

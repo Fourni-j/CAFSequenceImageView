@@ -21,15 +21,18 @@ Pod::Spec.new do |s|
   Image view used to display a sequence of image. You can customize the image sequence and the speed of the change.
                        DESC
 
-  s.homepage         = 'https://github.com/fourni-j/CAFSequenceImageView'
+  s.homepage         = 'https://github.com/Fourni-j/CAFSequenceImageView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'fourni-j' => 'charladfr@me.com' }
-  s.source           = { :git => 'https://github.com/fourni-j/CAFSequenceImageView.git', :tag => s.version.to_s }
+  s.author           = { 'Fourni-j' => 'charladfr@me.com' }
+  s.source           = { :git => 'https://github.com/Fourni-j/CAFSequenceImageView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   s.swift_version = '4.0'
+
 
   s.source_files = 'CAFSequenceImageView/Classes/**/*'
   
