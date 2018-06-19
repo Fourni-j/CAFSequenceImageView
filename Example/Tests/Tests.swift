@@ -1,5 +1,4 @@
 import XCTest
-import CAFSequenceImageView
 
 class Tests: XCTestCase {
     
