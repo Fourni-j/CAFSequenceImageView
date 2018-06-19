@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CAFSequenceImageView_Example' do
+  pod 'CAFSequenceImageView', :path => '../'
+
+  target 'CAFSequenceImageView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
